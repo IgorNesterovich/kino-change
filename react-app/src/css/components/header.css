@@ -1,0 +1,41 @@
+.header
+{
+
+}
+
+.nav
+{
+    display: flex;
+    padding: 25px 50px;
+    color: #FFF;
+    background: #141414;
+}
+
+.list
+{
+
+}
+.item
+{
+
+}
+.link
+{
+
+}
+
+.header__logo
+{
+    font-size: 2rem;
+    font-weight: 700;
+    display: flex;
+    justify-content: center;
+    gap: 8px;
+}
+.logo--cinema
+{
+    position: relative;
+    top: 1px;
+    width: 2.25rem;
+    fill: #FFF;
+}

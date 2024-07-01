@@ -1,6 +1,13 @@
+import Page from "../pages/Page";
+
 export const pages = [
     {
         path: '/',
-        element: <div>Hello world!</div>,
+        element: <Page />,
+        children: [
+            {
+
+            }
+        ]
     }
 ]

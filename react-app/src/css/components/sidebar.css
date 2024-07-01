@@ -1,0 +1,42 @@
+.sidebar
+{
+    padding: 30px;
+}
+
+.sidebar__list
+{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+.sidebar__item
+{
+    font-size: 1rem;
+    font-weight: 700;
+}
+.sidebar__link
+{
+    display: inline-flex;
+    align-items: center;
+    gap: 8px;
+    color: rgba(0, 0, 0, 0.5);
+    fill: rgba(0, 0, 0, 0.5);
+    padding-bottom: 3px;
+    border-bottom: 3px solid transparent;
+    transition: all linear .2s;
+}
+.sidebar__link:hover
+{
+    color: #000;
+    fill: #000;
+}
+.sidebar--active
+{
+    color: #000;
+    fill: #000;
+    border-bottom: 3px solid #000;
+}
+.icon
+{
+    width: 1.25rem;
+}
