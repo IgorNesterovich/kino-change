@@ -1,13 +1,24 @@
-.main
+#root
 {
     background: #f4f4f4;
 }
-
 .container
 {
-    max-width: 1000px;
+    max-width: 1280px;
     margin: 0 auto;
     padding: 0 15px;
+}
+.wrapper
+{
+    display: flex;
+    min-height: 100vh;
     background: #FFF;
 }
 
+.home,
+.films,
+.serials
+{
+    flex: 1;
+    margin-top: 30px;
+}

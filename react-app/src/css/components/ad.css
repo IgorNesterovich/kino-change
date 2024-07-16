@@ -1,0 +1,94 @@
+.ad
+{
+    position: relative;
+    height: 520px;
+    padding: 0 30px;
+    margin-bottom: 40px;
+}
+.ad__info
+{
+    max-width: 500px;
+    position: absolute;
+    top: 40px;
+    left: 70px;
+}
+.ad__title
+{
+    font-size: 2.5rem;
+    font-weight: 700;
+    line-height: 1.2;
+    text-transform: uppercase;
+    max-width: 380px;
+    color: #e8f352;
+    text-shadow: 2px 2px 3px #611313;
+    margin-bottom: 20px;
+}
+.ad__desc
+{
+    font-size: 0.875rem;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    color: #FFF;
+    text-shadow: 2px 2px 3px #000;
+    margin-bottom: 40px;
+}
+.ad--strong
+{
+    font-weight: 700;
+}
+.ad__actions
+{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+.ad__btn
+{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    font-size: 1.25rem;
+    font-weight: 700;
+    padding: 16px 24px;
+    border-radius: 32px;
+    color: #FFF;
+    background: linear-gradient(to right, #ec5f18 50%, #e6871a,  #d4da5a);
+    box-shadow: 0 0 1px 0 #000;
+    text-shadow: 0 0 2px #000;
+    cursor: pointer;
+    transition: all linear .2s;
+}
+.ad__btn:hover
+{
+    transform: scale(1.1);
+}
+.ad__icon
+{
+    font-size: 2rem;
+    fill: #FFF;
+}
+.ad__circle
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    background: rgba(0, 0, 0, 0.7);
+    transition: all linear .2s;
+    cursor: pointer;
+}
+.ad__circle:hover
+{
+    transform: scale(1.1);
+}
+.ad__img
+{
+    display: inline-block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: top;
+}

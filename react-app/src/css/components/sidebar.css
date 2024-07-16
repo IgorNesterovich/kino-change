@@ -1,10 +1,13 @@
 .sidebar
 {
     padding: 30px;
+    border-right: 1px solid #CCC;
 }
 
 .sidebar__list
 {
+    position: sticky;
+    top: 90px;
     display: flex;
     flex-direction: column;
     gap: 15px;
@@ -18,11 +21,10 @@
 {
     display: inline-flex;
     align-items: center;
-    gap: 8px;
+    gap: 6px;
     color: rgba(0, 0, 0, 0.5);
     fill: rgba(0, 0, 0, 0.5);
-    padding-bottom: 3px;
-    border-bottom: 3px solid transparent;
+    padding-bottom: 5px;
     transition: all linear .2s;
 }
 .sidebar__link:hover
@@ -34,9 +36,8 @@
 {
     color: #000;
     fill: #000;
-    border-bottom: 3px solid #000;
 }
-.icon
+.sidebar__icon
 {
-    width: 1.25rem;
+    font-size: 1.125rem;
 }
