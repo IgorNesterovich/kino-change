@@ -1,4 +1,3 @@
-import '../css/pages/home.css';
 import Ad from '../components/Ad';
 import { adBlock } from '../helpers/adBlock';
 import Slider from '../components/Slider';

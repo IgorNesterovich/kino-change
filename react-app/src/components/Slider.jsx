@@ -8,7 +8,7 @@ import 'swiper/css/pagination';
 export default function Slider({slides, title, top = false})
 {
     return (
-        <div className={top === false ? 'slider' : 'slider slider--black'}>
+        <section className={top === false ? 'slider' : 'slider slider--black'}>
             <h2 className='slider__title'>{title}</h2>
             <Swiper
                 modules={[Navigation, Pagination, A11y]}
@@ -34,6 +34,6 @@ export default function Slider({slides, title, top = false})
                 })}
                 
             </Swiper>
-        </div>
+        </section>
     )
 }

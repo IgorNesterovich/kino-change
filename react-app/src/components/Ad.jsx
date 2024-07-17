@@ -5,7 +5,7 @@ import { MdOutlineBookmarkAdd } from "react-icons/md";
 export default function Ad({name, description, roles, director, image})
 {
     return (
-        <div className='ad'>
+        <section className='ad'>
             <div className='ad__info'>
                 <h2 className='ad__title'>{name}</h2>
                 <div className='ad__desc'>
@@ -24,6 +24,6 @@ export default function Ad({name, description, roles, director, image})
                 </div>
             </div>
             <img className='ad__img' src={image} alt='Ad' />
-        </div>
+        </section>
     );
 }

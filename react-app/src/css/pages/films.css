@@ -1,0 +1,151 @@
+.films
+{
+    padding: 20px 30px;
+}
+
+.films__nav
+{
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    margin-bottom: 40px;
+}
+.films__nav-item
+{
+    transition: all linear .2s;
+    cursor: pointer;
+}
+.films__nav-item:hover
+{   
+    color: red;
+}
+
+.films-all
+{
+
+}
+.films-all__list
+{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.film-card
+{
+    position: relative;
+    padding: 20px;
+    cursor: pointer;
+}
+.film-link
+{
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+}
+.film-card__num
+{
+    position: absolute;
+    top: 25px;
+    left: 0;
+    font-size: 1.25rem;
+    font-weight: 700;
+}
+.film-card__img
+{
+    width: 120px;
+    margin-left: 20px;
+}
+.film-card__info
+{
+    font-size: 0.875rem;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.film-card__title
+{
+    font-size: 1rem;
+}
+.film-card__action
+{
+    height: 40px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.film-card__rating
+{
+    font-size: 2rem;
+    color: gold;
+}
+.film-card__views
+{
+    color: #CCC;
+    margin-right: 10px;
+}
+.film-card__btn
+{
+    padding: 12px 18px;
+    border-radius: 16px;
+    display: flex;
+    align-items: center;
+    transition: all linear .2s;
+    cursor: pointer;
+}
+.film-card__btn:hover
+{
+    transform: scale(1.1);
+    background: #CCC;
+}
+.film-card__icon
+{
+    font-size: 1.5rem;
+}
+.film-card__btn-text
+{
+    min-width: 100px;
+}
+
+
+.film
+{
+    width: 100%;
+    padding: 30px;
+    display: flex;
+    gap: 30px;
+}
+.film__wrap
+{
+
+}
+.film__img
+{
+    width: 260px;
+}
+
+.film__block
+{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    flex: 1;
+}
+.film__title
+{
+    font-size: 2rem;
+}
+.film__about
+{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.title--strong
+{
+    color: #777;
+}
+
+.film__info
+{
+
+}
